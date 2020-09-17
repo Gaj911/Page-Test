@@ -27,6 +27,10 @@ p {
   font-size: 1em;
 }
 
+.center-text {
+  text-align: center;
+}
+
 #middle {
   text-align: justify;
   margin: 0 auto;
@@ -38,7 +42,6 @@ p {
   float: left;
   width: 3em;
 }
-
 
 .big-photo {
     width:100%;
