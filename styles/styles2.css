@@ -64,6 +64,7 @@ grid-column-gap: 10px;
   width: 100%;
 }
 
+
 #sign-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -82,8 +83,18 @@ grid-column-gap: 10px;
 }
 
 
+iframe {
+  display: block;
+  margin: 0 auto;
+}
 
-.center {
+video {
+  display: block;
+  margin: 0 auto;
+}
+
+audio {
+  display: block;
   margin: 0 auto;
 }
 
@@ -318,3 +329,13 @@ footer {
   
 }
 
+.zoom a img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom a:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
