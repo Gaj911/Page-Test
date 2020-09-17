@@ -53,6 +53,13 @@ p {
       grid-row-gap: 10px;
     }
 
+#grid-container-pages {
+  display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 10px;
+}    
+
  .grid-photos {
   width: 100%;
 }
