@@ -81,9 +81,11 @@ grid-column-gap: 10px;
   text-align: center;
 }
 
+
+
 .center {
-  text-align: center;
-  }
+  margin: 0 auto;
+}
 
 .logo {
   width: 3rem;
@@ -296,7 +298,7 @@ ol > li {
   }
   
 
-    a:link {
+a:link {
       color: black;
     }
     
