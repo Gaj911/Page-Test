@@ -408,11 +408,18 @@ input:required:invalid {
       border-color: #c00000;
     }
 
+aside {
+  width: 40%;
+  padding-left: .5rem;
+  margin-left: .5rem;
+  float: right;
+  font-style: italic;
+  color: #000000;
+}    
 
 footer {
   text-align: center;
   background-color: rgb(226, 226, 226);
-  
 }
 
 .zoom a img {
@@ -421,6 +428,7 @@ footer {
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
+
 .zoom a:hover img {
 	-webkit-transform: scale(1.3);
 	transform: scale(1.3);
@@ -435,4 +443,8 @@ footer {
 .rotate a:hover img {
   -webkit-transform: rotate(-15deg);
   transform: rotate(-15deg);
+}
+
+.photo-voyage {
+  background-image: url("../images/kit-voyage.jpg");
 }
